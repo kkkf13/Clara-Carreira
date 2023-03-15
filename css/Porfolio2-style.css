@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+html {
+	background-color: black;
+}
+
+
+.logo {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	background-color: #FAF8CA;
+	border-radius: 50%;
+	background-color: #FAF8CA;
+	margin-top: 20px;
+
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* max-width: 1200px; */
+	margin-left: 45px;
+	margin-right: 45px;
+	font-family: 'Inter', sans-serif;
+	font-size: 21px;
+	margin-top: 20px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin-top: 20px;
+}
+
+nav li {
+	margin-left: 18px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	text-decoration-color: #FAF8CA;
+}
+
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	align-items: bottom;
+}
+
+.redes-sociales {
+	display: flex;
+
+}
+
+.redes-sociales a {
+	margin-right: 10px;
+	color: #FAF8CA;
+	width: 30px;
+	height: 30px;
+}
+
+.derechos-reservados {
+	text-align: right;
+	font-size: 14px;
+	font-family: 'Inter', sans-serif;
+	margin-right: 30px;
+
+}
